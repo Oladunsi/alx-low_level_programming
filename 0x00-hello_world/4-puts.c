@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
-* This returns 0 when no errors
-* and prints out Programming is like building a multilingual puzzle
-*/
+* main - entry point
+*
+* return: always 0 (success)
+* */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
