@@ -6,11 +6,10 @@
 * checks if ramdomly generated is less than zero then prints negative
 * checks if rand No. == zero then prints zero
 * checks if rand No. > zero then prints positive
-* Returns:  0 (Success) when no error
+* Return:  0 (Success) when no error
 */
 
 int main(void)
-
 {
 int n;
 
@@ -28,6 +27,6 @@ printf("%d is zero\n", n);
 else
 {
 printf("%d is positive\n", n);
-}	
+}
 return (0);
 }
