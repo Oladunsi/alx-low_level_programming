@@ -2,7 +2,7 @@
 
 
 /**
-* main - check the code
+* main - prints the alphabets in lowercase followed by a new line
 *
 * Return: Nothing.
 */
