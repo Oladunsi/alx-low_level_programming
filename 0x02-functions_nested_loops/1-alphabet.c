@@ -2,7 +2,7 @@
 
 
 /**
-* main - prints the alphabets in lowercase followed by a new line
+* print_alphabet - prints the alphabets in lowercase followed by a new line
 *
 * Return: Nothing.
 */
