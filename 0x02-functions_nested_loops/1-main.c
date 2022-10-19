@@ -2,9 +2,9 @@
 
 /**
 *
-* main - check the code
+* main - prints outs lowercase alphabets using _putchar function
 * 
-* Return: Always 0.
+* Return: Always 0 when succesfull
 *
 */
 

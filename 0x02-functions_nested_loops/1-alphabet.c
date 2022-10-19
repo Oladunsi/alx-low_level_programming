@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,13 +6,14 @@
 * Return: Always 0.
 */
 
-const char* print_alphabet(void)
+void print_alphabet(void)
 {
-char alpha;
 
-alpha = "a";
-while (alpha <= "z")
+char a;
+
+for (a = 'a'; a <= 'z'; a++)
 {
-putchar(alpha);
+_putchar(a);
 }
+_putchar('\n');
 }
