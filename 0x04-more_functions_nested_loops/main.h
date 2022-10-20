@@ -1,1 +1,1 @@
-int _isupper(int num);
+int _isupper(char letter);
