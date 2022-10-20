@@ -8,7 +8,7 @@
 
 int _isupper(char letter)
 {
-char  a; 
+char a;
 int value;
 
 value = 0;
