@@ -18,6 +18,7 @@ for (a = 'A'; a <= 'Z'; a++)
 if (letter == a)
 {
 value = 1;
+break;
 }
 }
 return (value);
