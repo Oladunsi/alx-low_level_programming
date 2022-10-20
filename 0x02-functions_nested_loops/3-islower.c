@@ -6,17 +6,16 @@
 * Return: 0 if True and 1 if not
 */
 
-int _islower(char letter)
+int _islower(int letter)
 {
 
-char alpha = 'a';
+char alpha;
 int lower = 0;
-for (alpha; alpha < 'z'; alpha++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-if (letter == alpha)
+if (alpha == letter)
 {
 lower = 1;
-return (lower);
 }
 }
 
