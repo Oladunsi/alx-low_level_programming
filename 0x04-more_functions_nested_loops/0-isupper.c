@@ -2,7 +2,7 @@
 
 /**
 * _isupper -  checks if parameter/argument is uppercase
-*
+*@letter: an alphabet
 * Return: 1 if upper and 0 if not
 */
 
