@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+* print_numbers - takes two parameter and multiply them
+* 
+* Return: the product of a and b
+*/
+
+void print_numbers(void)
+{
+	int a;
+
+	for (a ='0'; a <= '9'; a++)
+	{
+		_putchar(a)
+
+	}
+}
