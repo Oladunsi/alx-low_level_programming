@@ -1,1 +1,1 @@
-for more nested loops
+Ponters in C
