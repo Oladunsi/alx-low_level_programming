@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - changes the value in the paramter location
- * @*n: parameter pointer variable value to be changed
+ * @n: parameter pointer variable value to be changed
  *
  * Return: Nothing
  */
