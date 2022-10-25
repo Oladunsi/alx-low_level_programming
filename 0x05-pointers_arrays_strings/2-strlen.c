@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * swap_int - swaps the values in the paramter locations
+ * _strlen - swaps the values in the paramter locations
  * @s: parameter pointer variable value to be swapped
  *
  * Return: Nothing
