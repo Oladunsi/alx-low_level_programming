@@ -19,7 +19,8 @@ void print_rev(char *str)
 
 	while  (n >= 0)
 	{
-		_putchar(str[n]);
+		if (str[n] != '\0')
+			_putchar(str[n]);
 		--n;
 	}
 	_putchar('\n');
