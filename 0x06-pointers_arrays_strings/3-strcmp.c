@@ -22,5 +22,5 @@ int _strcmp(char *str1, char *str2)
 		u++;
 	}
 
-	return (tmp1 - tmp2);
+	return (*(const unsigned char*)tmp1 - *(const unsigned char*)tmp2);
 }
