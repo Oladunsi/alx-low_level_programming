@@ -2,7 +2,7 @@
 
 /**
  * sep_finder - a function that dectects ,, ;, ., !, ?, \", (, ), {, and }
- *
+ * @c: parameter as input character
  * Return: 0 for false 1 for true.
  */
 
@@ -25,7 +25,7 @@ int sep_finder(char c)
 
 /**
  * cap_string - This changes the first letter in all words of into Uppercase.
- *
+ * @str: parameteras input string
  * Return: A pointer to the resulting string
  */
 
