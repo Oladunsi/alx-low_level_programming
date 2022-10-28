@@ -16,11 +16,10 @@ int _strcmp(char *str1, char *str2)
 	while ((str1[u] != '\0' && str2[u] != '\0'))
 	{
 		if (str1[u] != str2[u])
-			break;
+			return (*(const unsigned char *)tmp1 - *(const unsigned char *)tmp2);
 		tmp1 += str1[u];
 		tmp2 += str2[u];
 		u++;
 	}
-
-	return (*(const unsigned char*)tmp1 - *(const unsigned char*)tmp2);
+	return (*(const unsigned char *)tmp1 - *(const unsigned char *)tmp2);
 }
