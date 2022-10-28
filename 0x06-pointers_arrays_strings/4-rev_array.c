@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that reverses an array.
+ * reverse_array - a function that reverses an array.
  * @a: array to be reversed
  * @n: size of a
  *
