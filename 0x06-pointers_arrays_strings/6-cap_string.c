@@ -1,20 +1,47 @@
 #include "main.h"
 
 /**
- * _string_toupper - a function that changes a string into Uppercase.
- * @str: an input string
+ * sep_finder - a function that dectects ,, ;, ., !, ?, \", (, ), {, and }
+ *
+ * Return: 0 for false 1 for true.
+ */
+
+int sep_finder(char c)
+{
+	int i = 0;
+	char sep[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?', '"',
+	'(', ')', '{', '}' };
+
+	for (; i < 13; i++)
+	{
+		if (c == sep[i])
+			return (1);
+	}
+	return (0);
+}
+
+
+
+
+/**
+ * cap_string - This changes the first letter in all words of into Uppercase.
  *
  * Return: A pointer to the resulting string
  */
 
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
 	char *tmp = str;
-	
-	while (*tmp++ != '\0')
+	int i = 0;
+
+	while (tmp[i] != '\0')
 	{
-		if (*tmp >= 'a' && *tmp <= 'z')
-			*tmp -= ('a' - 'A');
+		if (i == 0 && (tmp[i] >= 'a' && tmp[i] <= 'z'))
+			tmp[i] -= ('a' - 'A');
+
+		if (sep_finder(tmp[i]) && (tmp[i + 1] >= 'a' && tmp[i + 1] <= 'z'))
+			tmp[i + 1] -= ('a' - 'A');
+		i++;
 	}
 	return (str);
 }
