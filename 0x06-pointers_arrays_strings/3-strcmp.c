@@ -10,8 +10,9 @@
 
 int _strcmp(char *str1, char *str2)
 {
-	char *tmp1 = str1, *tmp2 = str2;
-	int u = 0;
+	/*
+	 * char *tmp1 = str1, *tmp2 = str2;
+			 int u = 0;
 
 	while ((str1[u] != '\0' && str2[u] != '\0'))
 	{
@@ -22,4 +23,12 @@ int _strcmp(char *str1, char *str2)
 		u++;
 	}
 	return (*(const unsigned char *)tmp1 - *(const unsigned char *)tmp2);
+	*/
+	while (*str1 && *str2)
+	{
+		if (*str1 != *str2)
+			return (*str1 - *str2);
+		str1++, str2++;
+	}
+	return (*str1 - *str2);
 }
