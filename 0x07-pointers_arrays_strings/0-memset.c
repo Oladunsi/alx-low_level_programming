@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _memset - Fills the first n bytes of the memory area
@@ -19,4 +19,3 @@ char *_memset(char *s, char b, unsigned int n)
 		tmp[ind] = b;
 	return (tmp);
 }
-
