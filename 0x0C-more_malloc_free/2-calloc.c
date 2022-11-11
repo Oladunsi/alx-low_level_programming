@@ -10,6 +10,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *arr;
+	char *point;
 	unsigned int i = 0;
 
 	if (nmemb == 0 || size == 0)
@@ -19,11 +20,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (arr == NULL)
 		return (NULL);
 
-	while (arr[i] != '\0')
+	point = arr;
+	while (point[i] != '\0')
 	{
-		arr[i] = 0;
+		point[i] = 0;
 		i++;
 	}
-	arr[i] = '\0';
+	point[i] = '\0';
 	return (arr);
 }
