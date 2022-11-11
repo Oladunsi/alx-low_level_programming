@@ -26,6 +26,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		point[i] = 0;
 		i++;
 	}
-	point[i] = '\0';
 	return (arr);
 }
