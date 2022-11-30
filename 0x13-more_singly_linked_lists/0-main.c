@@ -9,53 +9,55 @@
 
 
 /**
-
- * main - check the code
-
- * 
-
- * Return: Always 0.
-
- */
+ *
+ *  * main - check the code
+ *
+ *   * 
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
 int main(void)
 
 {
 
-    listint_t *head;
+	    listint_t *head;
 
-    listint_t *new;
+	        listint_t *new;
 
-    listint_t hello = {8, NULL};
+		    listint_t hello = {8, NULL};
 
-    size_t n;
+		        size_t n;
 
 
 
-    head = &hello;
+			    head = &hello;
 
-    new = malloc(sizeof(listint_t));
+			        new = malloc(sizeof(listint_t));
 
-    if (new == NULL)
+				    if (new == NULL)
 
-    {
+					        {
 
-        printf("Error\n");
+							        printf("Error\n");
 
-        return (1);
+								        return (1);
 
-    }
+									    }
 
-    new->n = 9;
+				        new->n = 9;
 
-    new->next = head;
+					    new->next = head;
 
-    head = new;
+					        head = new;
 
-    n = print_listint(head);
+						    n = print_listint(head);
 
-    printf("-> %lu elements\n", n);
+						        printf("-> %lu elements\n", n);
 
-    free(new);
-    return (0);
+							    free(new);
+
+							        return (0);
+
 }
