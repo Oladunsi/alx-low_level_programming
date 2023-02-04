@@ -1,3 +1,9 @@
+/*
+ * File: 0-hash_table_create.c
+ *
+ * Auth: Oke Oladunsi
+ */
+
 #include "hash_tables.h"
 
 
