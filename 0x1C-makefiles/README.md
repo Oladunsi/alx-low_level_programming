@@ -68,3 +68,22 @@ Repo:
 * GitHub repository: alx-low_level_programming
 * Directory: 0x1C-makefiles
 * File: 0-Makefile
+
+--
+
+1. make -f 1-Makefile
+mandatory
+Requirements:
+
+* name of the executable: school
+* rules: all
+- The all rule builds your executable
+* variables: CC, SRC
+- CC: the compiler to be used
+- SRC: the .c files
+
+julien@ubuntu:~/0x1C. Makefiles$ make -f 1-Makefile
+gcc main.c school.c -o school
+julien@ubuntu:~/0x1C. Makefiles$ make -f 1-Makefile
+gcc main.c school.c -o school
+julien@ubuntu:~/0x1C. Makefiles$
